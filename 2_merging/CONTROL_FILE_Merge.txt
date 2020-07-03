@@ -1,0 +1,11 @@
+# path to folder with chess file:
+/prj/hydrojules/data/soil_moisture/preprocessed/chess/chess_2d/merged/
+
+# path to folder with smap file:
+/prj/hydrojules/data/soil_moisture/preprocessed/smap/smap_merged/
+
+# path to folder with smos file:
+/prj/hydrojules/data/soil_moisture/preprocessed/smos/smos_merged/
+
+# path to folder where merged file should be created:
+/prj/hydrojules/data/soil_moisture/merged/

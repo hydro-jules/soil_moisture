@@ -1,0 +1,2 @@
+# Path to the merged SMOS netCDF file:
+/prj/hydrojules/data/soil_moisture/preprocessed/smos/smos_merged/

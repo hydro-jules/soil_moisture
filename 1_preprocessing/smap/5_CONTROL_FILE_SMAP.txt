@@ -1,0 +1,11 @@
+# start date (format YYYY-MM-DD):
+2015-04-01
+
+# end date (format YYYY-MM-DD):
+2017-12-31
+
+# Main input folder with NetCDF files (there should be subfolders 'smap_AM' and 'smap_PM' in it)
+/prj/hydrojules/data/soil_moisture/preprocessed/smap/smap_nc/
+
+# Output folder 
+/prj/hydrojules/data/soil_moisture/preprocessed/smap/smap_merged/

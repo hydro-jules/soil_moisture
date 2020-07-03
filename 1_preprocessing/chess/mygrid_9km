@@ -1,0 +1,7 @@
+gridtype = latlon
+xsize    = 101
+ysize    = 105
+xfirst   = -7.46
+xinc     = 0.09
+yfirst   = 59.19
+yinc     = -0.09

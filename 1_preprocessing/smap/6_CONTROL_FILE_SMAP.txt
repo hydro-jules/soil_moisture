@@ -1,0 +1,2 @@
+# Path to the merged SMAP netCDF file:
+/prj/hydrojules/data/soil_moisture/preprocessed/smap/smap_merged/

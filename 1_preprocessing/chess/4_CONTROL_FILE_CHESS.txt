@@ -1,0 +1,11 @@
+# Start date (Format YYYY-MM-DD):
+2015-1-1
+
+# End date (Format YYYY-MM-DD):
+2017-12-31
+
+# Path to input CHESS reprojected Geotiff files:
+/prj/hydrojules/data/soil_moisture/preprocessed/chess/chess_2d/geotiff/temp/
+
+# Path to output CHESS reprojected NetCDF files:
+/prj/hydrojules/data/soil_moisture/preprocessed/chess/chess_2d/reprojected/

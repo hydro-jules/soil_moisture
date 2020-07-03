@@ -1,0 +1,5 @@
+# Main input folder (there should be subfolders 'smap_AM' and 'smap_PM' in it)
+/prj/hydrojules/data/soil_moisture/preprocessed/smap/smap_tif/
+
+# Main output folder (subfolders 'smap_AM' and 'smap_PM' will be created if they don't exist)
+/prj/hydrojules/data/soil_moisture/preprocessed/smap/smap_nc/

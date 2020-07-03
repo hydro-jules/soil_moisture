@@ -1,0 +1,11 @@
+# start year:
+2015
+
+# end year:
+2017
+
+# path to folder with input 1D CHESS data
+/prj/hydrojules/data/soil_moisture/preprocessed/chess/chess_1d/
+
+# path to folder with output 2D CHESS data
+/prj/hydrojules/data/soil_moisture/preprocessed/chess/chess_2d/

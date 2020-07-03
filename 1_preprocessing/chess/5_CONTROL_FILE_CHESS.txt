@@ -1,0 +1,11 @@
+# start date (format: YYYY-MM-DD):
+2015-4-1
+
+# end date (format: YYYY-MM-DD):
+2017-12-31
+
+# path to folder with input reprojected files
+/prj/hydrojules/data/soil_moisture/preprocessed/chess/chess_2d/reprojected/
+
+# path to folder with output merged CHESS files
+/prj/hydrojules/data/soil_moisture/preprocessed/chess/chess_2d/merged/

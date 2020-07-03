@@ -1,0 +1,11 @@
+# start date (format YYYY-MM-DD):
+2015-04-01
+
+# end date (format YYYY-MM-DD):
+2017-12-31
+
+# Main input folder with NetCDF files 
+/prj/hydrojules/data/soil_moisture/preprocessed/smos/smos_nc/
+
+# Output folder 
+/prj/hydrojules/data/soil_moisture/preprocessed/smos/smos_merged/
