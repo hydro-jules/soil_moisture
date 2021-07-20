@@ -10,7 +10,7 @@ targetFolder=$(sed '2q;d' $1)
 
 cat > mygrid_1km << EOF
 gridtype = latlon
-xsize    = 910
+xsize    = 945
 ysize    = 945
 xfirst   = -7.54
 xinc     = 0.01

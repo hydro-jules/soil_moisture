@@ -1,0 +1,5 @@
+# path to 12.5km CHESS file
+/prj/hydrojules/data/soil_moisture/preprocessed/chess/chess_2d/merged/
+
+# path to folder with HWSD data
+/prj/hydrojules/data/soil_moisture/preprocessed/ascat/HWSD/

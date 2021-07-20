@@ -1,0 +1,2 @@
+# Path to the merged ASCAT netCDF file:
+/prj/hydrojules/data/soil_moisture/preprocessed/ascat/h115/GB/gridded_data/

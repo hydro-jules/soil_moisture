@@ -43,8 +43,8 @@ import glob
 import gdal
 import osr
 
-roodirc = '/prj/hydrojules/data/soil_moisture/preprocessed/smap/smap_tif/' ###define the directory where you store your downloaded SMAP 9k geotiff files
-outdir = '/prj/hydrojules/data/soil_moisture/preprocessed/smap/smap_nc/'
+#roodirc = '/prj/hydrojules/data/soil_moisture/preprocessed/smap/smap_tif/' ###define the directory where you store your downloaded SMAP 9k geotiff files
+#outdir = '/prj/hydrojules/data/soil_moisture/preprocessed/smap/smap_nc/'
 
 # create output subdirectories if they don't exist
 if not os.path.exists(outdir+'smap_AM/'):

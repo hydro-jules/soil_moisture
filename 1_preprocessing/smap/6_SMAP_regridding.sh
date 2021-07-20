@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# Script to regrid SMAP to 9km grids
+# Script to regrid SMAP to 12.5km grids
 # USAGE: SMAP_regridding.sh <control_file_name>
 # The control file must have the path to the merged SMAP netCDF 
 # file on the second line
@@ -8,22 +8,22 @@
 # Second line of control file is the path to the target folder
 targetFolder=$(sed '2q;d' $1)
 
-cat > mygrid_9km << EOF
+cat > mygrid_12.5km << EOF
 gridtype = latlon
-xsize    = 101
-ysize    = 105
+xsize    = 76
+ysize    = 76
 xfirst   = -7.46
-xinc     = 0.09
+xinc     = 0.125
 yfirst   = 59.19
-yinc     = -0.09
+yinc     = -0.125
 EOF
 
 #targetFolder=/prj/hydrojules/data/soil_moisture/preprocessed/smap/smap_merged/
 
 cdo sellonlatbox,-7.55,1.55,49.77,59.21
-cdo remapnn,mygrid_9km ${targetFolder}smap_am_pm_all_uk.nc ${targetFolder}smap_9km.nc
+cdo remapnn,mygrid_12.5km ${targetFolder}smap_am_pm_all_uk.nc ${targetFolder}smap_12.5km.nc
 
-chmod 664 ${targetFolder}smap_9km.nc
-chmod 664 mygrid_9km
+chmod 664 ${targetFolder}smap_12.5km.nc
+chmod 664 mygrid_12.5km
 
 

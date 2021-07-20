@@ -1,0 +1,8 @@
+# path to 12.5km CHESS file
+/prj/hydrojules/data/soil_moisture/preprocessed/chess/chess_2d/merged/chess_12.5km.nc
+
+# path to folder with ASCAT data
+/prj/hydrojules/data/soil_moisture/preprocessed/ascat/h115/GB/gridded_data/
+
+# path to output folder:
+/prj/hydrojules/data/soil_moisture/preprocessed/ascat/h115/GB/gridded_data/

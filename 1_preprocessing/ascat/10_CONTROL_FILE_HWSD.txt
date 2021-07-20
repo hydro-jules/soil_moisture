@@ -1,0 +1,2 @@
+# Path to HWSD data:
+/prj/hydrojules/data/soil_moisture/preprocessed/ascat/HWSD/

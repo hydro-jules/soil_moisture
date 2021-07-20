@@ -1,0 +1,2 @@
+# path to folder with ASCAT raw data
+/prj/hydrojules/data/soil_moisture/preprocessed/ascat/h115/GB/

@@ -1,8 +1,8 @@
 #!/bin/sh
 
-# Script to regrid CHESS to 12.5km grids
-# USAGE: SMAP_regridding.sh <control_file_name>
-# The control file must have the path to the merged CHESS netCDF 
+# Script to regrid Hamburg porosity to 12.5km grids
+# USAGE: Hamburg_regridding.sh <control_file_name>
+# The control file must have the path to the mHamburg netCDF 
 # file on the second line
 
 # Second line of control file is the path to the target folder
@@ -19,7 +19,7 @@ yinc     = -0.125
 EOF
 
 cdo sellonlatbox,-7.55,1.55,49.77,59.21
-cdo remapnn,mygrid_12.5km ${targetFolder}chess_all_uk.nc ${targetFolder}chess_12.5km.nc
-chmod 664 ${targetFolder}chess_12.5km.nc
+cdo remapnn,mygrid_12.5km ${targetFolder}ASCAT_Hamburg_porosity.nc ${targetFolder}ASCAT_Hamburg_porosity_12.5km.nc
+chmod 664 ${targetFolder}ASCAT_Hamburg_porosity_12.5km.nc
 chmod 664 mygrid_12.5km
 

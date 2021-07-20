@@ -1,0 +1,2 @@
+# Path to the HWSD netCDF file:
+/prj/hydrojules/data/soil_moisture/preprocessed/ascat/HWSD/

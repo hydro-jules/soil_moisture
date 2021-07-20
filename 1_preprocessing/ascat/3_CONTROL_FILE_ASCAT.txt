@@ -1,0 +1,9 @@
+# start date:
+2015-04-01
+
+# end date:
+2017-12-31
+
+# path to folder with ASCAT raw data
+/prj/hydrojules/data/soil_moisture/preprocessed/ascat/h115/GB/
+
