@@ -71,6 +71,17 @@ lat = np.squeeze(np.array(dataset_ascat.variables['lat']))
 lon = np.squeeze(np.array(dataset_ascat.variables['lon']))
 tmp_date = np.asarray(dataset_ascat.variables['time'])
 
+# NOTE: if you ever need to mask ascat with a chess file that has a
+# different temporal extent to ascat, you can use the following workaorund:
+# create mock chess array (to be used just to mask)
+##chess = np.squeeze(chess[10,:,:])
+##chess_mask = np.where(chess<0, -999, chess)
+##chess_mask = np.where(chess_mask>1, -999, chess_mask)
+##chess_mask_np = np.ones_like(ascat)*-999
+##for t in range(len(tmp_date)):
+##    chess_mask_np[t,:,:] =  chess_mask
+##chess = np.ma.masked_where((chess_mask_np<0)|(chess_mask_np>1), chess_mask_np)
+
 ascat_tc = np.ma.masked_where(np.isnan(chess), ascat)
 
 #------------------------------------------------------------
