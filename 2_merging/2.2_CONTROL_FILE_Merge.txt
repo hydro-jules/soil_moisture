@@ -1,0 +1,7 @@
+# path to folder with chess file:
+/prj/hydrojules/data/soil_moisture/preprocessed/chess/chess_2d/merged/
+
+# path to folder with the scaling factor b2:
+/prj/hydrojules/data/soil_moisture/merged/weights/
+
+

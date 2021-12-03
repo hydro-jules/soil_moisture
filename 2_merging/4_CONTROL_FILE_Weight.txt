@@ -1,0 +1,11 @@
+# path to folder with chess file:
+/prj/hydrojules/data/soil_moisture/preprocessed/chess/chess_2d/merged/
+
+# path to folder with smap file:
+/prj/hydrojules/data/soil_moisture/preprocessed/smap/smap_merged/
+
+# path to folder with ascat file:
+/prj/hydrojules/data/soil_moisture/preprocessed/ascat/h115/GB/gridded_data/
+
+# path to folder where weight file should be created:
+/prj/hydrojules/data/soil_moisture/merged/weights/

@@ -1,0 +1,6 @@
+# path to 12.5km CHESS file
+/prj/hydrojules/data/soil_moisture/preprocessed/chess/chess_2d/merged/
+
+# path to 12.5km SMAP folder
+/prj/hydrojules/data/soil_moisture/preprocessed/smap/smap_merged/
+

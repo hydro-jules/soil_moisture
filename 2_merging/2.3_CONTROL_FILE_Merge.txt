@@ -1,0 +1,2 @@
+# Path to the merged CHESS 12.5km netCDF file:
+/prj/hydrojules/data/soil_moisture/preprocessed/chess/chess_2d/merged/
