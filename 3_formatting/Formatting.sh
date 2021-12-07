@@ -20,7 +20,7 @@ ncatted -a institution,global,o,c,"UK Centre for Ecology & Hydrology (UKCEH)" -h
 ncatted -a title,global,o,c,"HydroJULES Soil moisture product - Merged data 12.5km resolution" -h $merged1
 
 ncatted -a summary,global,o,c,"Based on Peng et al. (2021) study, a combined soil moisture product was generated to merge soil moisture data using triple collocation (TC) error
-estimation and least-squares mergind scheme, from three sources: remote sensing data SMAP L4 and ASCAT, and land surface model JULES output for Great Britain. Details of the
+estimation and least-squares mergind scheme, from three sources: remote sensing data SMAP L3 and ASCAT, and land surface model JULES output for Great Britain. Details of the
 methodology can be found in Peng et al. (2021).The dataset comprises: (i) a merged product based on TC analysis (12.5km version); (ii) a merged product based on TC analysis (1km
 version); (iii) weights used in the merging and map of merging method used (for 12.5km version only); (iv) a merged produced based on a plain mean. This NetCDF file contains (i)." -h $merged1
 
@@ -81,7 +81,7 @@ ncatted -a institution,global,o,c,"UK Centre for Ecology & Hydrology (UKCEH)" -h
 ncatted -a title,global,o,c,"HydroJULES Soil moisture product - Merged data 1km resolution" -h $merged1
 
 ncatted -a summary,global,o,c,"Based on Peng et al. (2021) study, a combined soil moisture product was generated to merge soil moisture data using triple collocation (TC) error
-estimation and least-squares mergind scheme, from three sources: remote sensing data SMAP L4 and ASCAT, and land surface model JULES output for Great Britain. Details of the
+estimation and least-squares mergind scheme, from three sources: remote sensing data SMAP L3 and ASCAT, and land surface model JULES output for Great Britain. Details of the
 methodology can be found in Peng et al. (2021).The dataset comprises: (i) a merged product based on TC analysis (12.5km version); (ii) a merged product based on TC analysis (1km
 version); (iii) weights used in the merging and map of merging method used (for 12.5km version only); (iv) a merged produced based on a plain mean. This NetCDF file contains (ii)." -h $merged1
 
@@ -143,7 +143,7 @@ ncatted -a institution,global,o,c,"UK Centre for Ecology & Hydrology (UKCEH)" -h
 ncatted -a title,global,o,c,"HydroJULES Soil moisture product - Merged data 1km resolution" -h $merged1
 
 ncatted -a summary,global,o,c,"Based on Peng et al. (2021) study, a combined soil moisture product was generated to merge soil moisture data using triple collocation (TC) error
-estimation and least-squares mergind scheme, from three sources: remote sensing data SMAP L4 and ASCAT, and land surface model JULES output for Great Britain. Details of the
+estimation and least-squares mergind scheme, from three sources: remote sensing data SMAP L3 and ASCAT, and land surface model JULES output for Great Britain. Details of the
 methodology can be found in Peng et al. (2021).The dataset comprises: (i) a merged product based on TC analysis (12.5km version); (ii) a merged product based on TC analysis (1km
 version); (iii) weights used in the merging and map of merging method used (for 12.5km version only); (iv) a merged produced based on a plain mean. This NetCDF file contains (iii)." -h $merged1
 
@@ -200,7 +200,7 @@ ncatted -a institution,global,o,c,"UK Centre for Ecology & Hydrology (UKCEH)" -h
 ncatted -a title,global,o,c,"HydroJULES Soil moisture product - Merged data 12.5km resolution" -h $merged1
 
 ncatted -a summary,global,o,c,"Based on Peng et al. (2021) study, a combined soil moisture product was generated to merge soil moisture data using triple collocation (TC) error
-estimation and least-squares mergind scheme, from three sources: remote sensing data SMAP L4 and ASCAT, and land surface model JULES output for Great Britain. Details of the
+estimation and least-squares mergind scheme, from three sources: remote sensing data SMAP L3 and ASCAT, and land surface model JULES output for Great Britain. Details of the
 methodology can be found in Peng et al. (2021).The dataset comprises: (i) a merged product based on TC analysis (12.5km version); (ii) a merged product based on TC analysis (1km
 version); (iii) weights used in the merging and map of merging method used (for 12.5km version only); (iv) a merged produced based on a plain mean. This NetCDF file contains (iv)." -h $merged1
 
